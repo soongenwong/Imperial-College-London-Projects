@@ -1,13 +1,9 @@
 There are 3 Assignments in this repository. 
 
-The first assignment At each round the player is given some digits.
-The player submits a sequence of digits using some or all of the given digits for the round.
-The submitted sequence must be one of the allowed ones as specified in a given list. The list may change from game instance to game instance but stays the same across different rounds of the same game instance.
-The sequence submitted by the player at each round gets a score that is computed as follows (if you have doubts about the interpretation of the following please refer to the examples provided further down, including those provided specifically for function score):
-For each digit, the corresponding value is added (however values may be positive or negative). A list is given with the value for each digit. This list may change from game instance to game instance but stays the same across different rounds of the same game instance.
-The value of (sub)sequences of digits in consecutive ascending order are multiplied times the length of the sequence.
-The player clearly wants to submit the sequence with the highest possible score for that round.
+First Assignment (numbers puzzle): A player is given a certain number of digits at the start. We then determine if the series of number provided can be played with the digits that we were give at the start. If the digits can be played, we calculate the scores associated with each value (from 0 to 9). If the digits have consecutive numbers, the sum of the value of the score will be multiplied by the number of consecutive values. At the end, we have to find out which number obtains the highest value, and that is the answer we are looking for. 
 
-The second assignement:
+Second assignement (binary tree): We are given a binary tree of fruits from the root node to the lead node. We then expect the output to display the nodes from the leaf nodes all the way until the root nodes. Finally, we have to calculate the node count and the leaf node count. 
 
-The third assignment:
+The third assignment (data mining and machine learning):  We are given a complex tree of many nodes that represents the weather under different conditions like rain, temperature and wind. By using vectors to write down the values in the tree, we determine if the weather condition is deemed acceptable, good or poor for that current situation. 
+
+My code for all three assignments are provided in the folder. 
